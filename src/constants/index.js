@@ -1,0 +1,1 @@
+export const ELEMENTS__SET_IN_STORE = 'ELEMENTS__SET_IN_STORE';
