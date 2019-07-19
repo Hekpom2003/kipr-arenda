@@ -2,6 +2,7 @@ import React from 'react';
 import Filter from './components/filter';
 import Icons from './components/icons';
 import Elements from './components/elements';
+import './App.scss';
 
 class App extends React.Component {
   render() {

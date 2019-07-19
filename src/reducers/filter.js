@@ -1,9 +1,10 @@
-const initialState = [
-  // {code: 'date', name: 'Дата', values:false,selected:[],},
-  // {code: 'region', name: 'Количество спален', values:["Кирения","Фамагуста"],selected:[],},
-  // {code: 'guests', name: 'Количество гостей', values:[],selected:[],},
-  // {code: 'bedrooms', name: 'Количество спален', values:[],selected:[],},
-];
+const initialState = {
+  date: [], //array
+  region: [], //array
+  countGuests: false, //number
+  countBedRooms: false, // number
+  price: [], //array, currency-price GBP
+};
 
 export default function filter(state = initialState, action) {
   return state;

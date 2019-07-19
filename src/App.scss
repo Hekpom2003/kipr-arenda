@@ -1,0 +1,9 @@
+@import "vars";
+
+.catalog-section {
+  &__top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
