@@ -1,3 +1,16 @@
-$primary-color: deeppink;
-$grey: #888;
+$primary-color: #19a9e5;
+
+$primary-color-darken: darken($primary-color, 15%);
+
+$primary-color-lighten: lighten($primary-color, 15%);
+
+$grey: #ddd;
 $grey-light: #eee;
+$grey-dark: #aaa;
+
+$error-color: #FF0000;
+
+$white:#fff;
+$black:#000;
+
+$base-border-radius: 4px;

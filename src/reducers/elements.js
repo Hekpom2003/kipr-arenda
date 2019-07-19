@@ -6,7 +6,7 @@ const initialState = [
     name: 'Name building',
     slider: [
       {type: 'video',url:'url1'},
-      {type: 'image',url:'url2'},
+      {type: 'image',url:'https://severnyi-kipr.ru/upload/resize_cache/iblock/8e4/358_190_2/8e40b37d16662b77217fa5167cfd9c21.jpg'},
     ],
     prices: [
       {code: 'RUB', value: 500 },
@@ -23,8 +23,9 @@ const initialState = [
     id: 101,
     name: 'Name building 1',
     slider: [
-      {type: 'video',url:'url1'},
-      {type: 'image',url:'url2'},
+      {type: 'image',url:'https://severnyi-kipr.ru/upload/resize_cache/iblock/d1b/358_190_2/d1bda95acdb9557349d04667fb0bbd52.jpg'},
+      {type: 'image',url:'https://severnyi-kipr.ru/upload/resize_cache/iblock/d1b/358_190_2/d1bda95acdb9557349d04667fb0bbd52.jpg'},
+      {type: 'image',url:'https://severnyi-kipr.ru/upload/resize_cache/iblock/d1b/358_190_2/d1bda95acdb9557349d04667fb0bbd52.jpg'},
     ],
     prices: [
       {code: 'RUB', value: 5001},
