@@ -1,5 +1,7 @@
 import React from 'react';
 import './element.scss';
+import {Swiper} from 'react-id-swiper';
+
 class Element extends React.Component {
   render() {
 
@@ -10,7 +12,7 @@ class Element extends React.Component {
         <div className="__wrapper">
           <div className="__image">
             <div className="__background">
-              {this.props.slider[0].type == 'video'&& <elementVideo videoId={this.props.slider[0].url})/>|| this.props.slider[0].type == 'image' && <img href="this.props.slider[0].url"/>}
+              {this.props.slider[0].type == 'video'&& <elementVideo videoId={this.props.slider[0].url}/>|| this.props.slider[0].type == 'image' && <img href="this.props.slider[0].url"/>}
             </div>
 
             <div className="__articul">ID {this.props.id}</div>
